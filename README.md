@@ -28,7 +28,7 @@ Getting Started
 1.  **Clone the repository**
 
 ```
-git clone https://github.com/yourusername/language-detection.git
+git clone https://github.com/dhyanYajnik/language-detection.git
 cd language-detection
 
 ```
