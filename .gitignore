@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ML artifacts
+*.pkl
+app/model/trained_pipeline-*.pkl
+notebooks/trained_pipeline-*.pkl
+*.joblib
+*.h5
+*.onnx
+*.pt
+*.bin
+mlruns/
+checkpoints/
+weights/
+model_outputs/
+
+# Data files
+*.csv
+*.json
+*.xlsx
+*.xls
+*.parquet
+*.db
+*.sqlite
+data/
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+!language_detection.ipynb
+
+# Logs
+logs/
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Docker
+.dockerignore
+**/Dockerfile-dev
+**/docker-compose-dev.yml
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Cache
+.pytest_cache/
+.coverage
+htmlcov/
+coverage/
